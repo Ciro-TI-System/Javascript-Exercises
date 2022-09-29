@@ -1,5 +1,5 @@
 // Promessa é rejeitada e usamos o catch() para capturar o erro
-// Promessa é rejeitada e usamos o catch() para capturar o erro
+
 console.log('pedir uber') 
 const promessa = new Promise((resolve, reject) => {
 	return reject('pedido negado!')
